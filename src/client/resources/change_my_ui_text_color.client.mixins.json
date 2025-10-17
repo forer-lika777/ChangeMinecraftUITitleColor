@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "com.mycompany.change_my_ui_text_color.mixin.client",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ui.CreativeInventoryScreenMixin",
+    "ui.HandledScreenMixin",
+    "ui.HandledScreensMixin",
+    "ui.InventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}

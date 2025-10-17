@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "change_my_ui_text_color",
+	"version": "1.0.0",
+	"name": "Change My UI Text Color",
+	"description": "Defaut UI color is always set to grey... But don't worry, this mod help you change your UI color into white, which is of great help to suit custom ui resource pack",
+	"authors": [
+		"forer4433"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": ""
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/change_my_ui_text_color/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.mycompany.change_my_ui_text_color.ChangeMyUITextColor"
+		],
+		"client": [
+			"com.mycompany.change_my_ui_text_color.ChangeMyUITextColorClient"
+		]
+	},
+	"mixins": [
+      "change_my_ui_text_color.mixins.json",
+		{
+			"config": "change_my_ui_text_color.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
