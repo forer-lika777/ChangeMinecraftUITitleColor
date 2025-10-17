@@ -6,7 +6,8 @@
     "ui.CreativeInventoryScreenMixin",
     "ui.HandledScreenMixin",
     "ui.HandledScreensMixin",
-    "ui.InventoryScreenMixin"
+    "ui.InventoryScreenMixin",
+    "ui.MerchantScreenMixin"
   ],
   "injectors": {
     "defaultRequire": 1
