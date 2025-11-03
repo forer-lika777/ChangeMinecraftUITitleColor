@@ -1,5 +1,5 @@
-我的世界-修改UI界面标题文本的颜色
-===
+# 我的世界-修改UI界面标题文本的颜色
+
 
 他有什么功能？
 ---
@@ -18,8 +18,8 @@
 
 模组支持1.20.1，理论上应该也支持其他大部分版本。（我懒得测试）
 
-Minecraft - Change title text color on ui screen
-===
+# Minecraft - Change title text color on ui screen
+
 
 What features does it have?
 ---
